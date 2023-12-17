@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    /* putting padding on the left & right sides */
+    padding: 0 30px;
+    background-color: #F2F2F2;
+    /* forcing font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* forcing space at the bottom */
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+/* Style the list in the navbar */
+.nav li {
+    list-style-type: none;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+    color: #000000;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+
+/* Change the bg color on hover */
+.nav a:hover {
+    background-color: #cdcdcd;
+}
+
+/* Styling the main portion of the home page*/
+.homeArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling the Names inputs row */
+.flex {
+    display: flex;
+    gap: 15px;
+}
+
+form {
+    box-shadow: #CDCDCD 0px 0px 10px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+form p {
+    margin: 5px;
+}
+
+/* Styling the text inputs */
+.textInput {
+    width: 150px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #F2F2F2;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+/* adding a border to the radio buttons */
+.radio {
+    margin-bottom: 20px;
+}
+
+/* Styling the submit button */
+.button {
+    background-color: #f5c506;
+    border: 0px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+/* Change the bg color on hover, adds a cursor */
+.button:hover {
+    background-color: #f5d906;
+    cursor: pointer;
+}

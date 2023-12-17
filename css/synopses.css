@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    /* putting padding on the left & right sides */
+    padding: 0 30px;
+    background-color: #F2F2F2;
+    /* forcing font */
+    font-family: Arial, Helvetica, sans-serif;
+    /* forcing space at the bottom */
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+/* Style the list in the navbar */
+.nav li {
+    list-style-type: none;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+    color: #000000;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+
+/* Change the bg color on hover */
+.nav a:hover {
+    background-color: #cdcdcd;
+}
+
+/* Styling the main portion of the home page*/
+.homeArticle {
+    padding: 0 10%;
+}
+
+/* Styling the title in the synopsis */
+.movieTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Using flex to place the image next to the synopsis */
+.movieInfo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 30px;
+}
+
+.movieInfo img {
+    width: 150px;
+}
